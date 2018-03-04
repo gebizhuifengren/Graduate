@@ -15,7 +15,7 @@ namespace GRADUATE.ENTITYS.Entity
         public DateTime EndTime { get; set; }
 
         public long TissueId { get; set; }
-        public TissueEntity Tissue { get; set; }
+        //public TissueEntity Tissue { get; set; }
         public long SickTypeId { get; set; }
         public SickTypeEntity SickType { get; set; }
         public long ExamplePeopleId { get; set; }

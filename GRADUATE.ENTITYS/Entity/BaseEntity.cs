@@ -8,7 +8,7 @@ namespace GRADUATE.ENTITYS.Entity
 {
     public class BaseEntity
     {
-        public long Id { get; set; }
+        public string Id { get; set; }
         public DateTime CreatedDateTime { get; set; } = DateTime.Now;
         public bool IsDeleted { get; set; }
     }

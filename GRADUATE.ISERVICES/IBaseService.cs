@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace GRADUATE.ISERVICES
 {
-    public class Class1
+    public interface IBaseService
     {
+
     }
 }

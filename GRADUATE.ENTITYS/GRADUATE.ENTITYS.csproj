@@ -47,20 +47,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Config\DataConfig.cs" />
+    <Compile Include="Config\FrequencyConfig.cs" />
+    <Compile Include="Config\ParameterTypeConfig.cs" />
+    <Compile Include="Config\TissuseConfig.cs" />
     <Compile Include="Entity\BaseEntity.cs" />
-    <Compile Include="Entity\CaseRecordEntity.cs" />
-    <Compile Include="Entity\ExamplePeopleEntity.cs" />
-    <Compile Include="Entity\SickTypeEntity.cs" />
-    <Compile Include="Entity\TissueEntity.cs" />
-    <Compile Include="Entity\UserEntity.cs" />
+    <Compile Include="Entity\DataEntity.cs" />
+    <Compile Include="Entity\FrequencyEntity.cs" />
+    <Compile Include="Entity\ParameterEntity.cs" />
+    <Compile Include="Entity\TissuseEntity.cs" />
+    <Compile Include="GraduateContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Config\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
