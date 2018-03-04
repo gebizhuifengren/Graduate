@@ -16,6 +16,7 @@ namespace GRADUATE.UI
         public Main()
         {
             InitializeComponent();
+         
         }
 
         private void ExitMenu_Click(object sender, EventArgs e)
@@ -67,6 +68,31 @@ namespace GRADUATE.UI
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
         {
 
         }
